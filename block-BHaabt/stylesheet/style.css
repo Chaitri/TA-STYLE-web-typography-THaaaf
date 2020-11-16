@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CUSTOM STYLES */
+
+body {
+    font-family: "Karla";
+    font-size: 16px;
+    color: #797575;
+    font-family: "Karla";
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header {
+    margin: 20px 0;
+}
+
+.header h2 , .footer h2 {
+    color: #2d2640;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "DM Serif Display";
+}
+
+.main-nav a {
+    text-decoration: none;
+    margin-left: 16px;
+    text-transform: uppercase;
+    color: #797575;
+}
+
+.selected {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hero, .our-work {
+    background-color: #2d2640;
+    color: white;
+    margin: 20px 0;
+}
+
+.hero .flex , .about .flex, .our-work .flex{
+    align-items: center;
+}
+
+.intro {
+    width: 50%;
+    text-align: justify;
+}
+
+.hero h1, .our-work h2 {
+    font-family: "DM Serif Display";
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 28px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.hero img , .about img {
+    width: 300px;
+}
+
+
+.section-heading {
+    font-size: 30px;
+    color: #2d2640;
+    font-family: "DM Serif Display";
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.about a {
+    color: #797575;
+}
+
+.about, .services {
+    margin: 32px 0;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 30%;
+}
+
+.item i {
+    color: rgb(143, 143, 224);
+    font-size: 32px;
+}
+
+.item h3 {
+    font-family: "DM Serif Display";
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.our-work h2 {
+    width: 40%;
+    /* height: 200px; */
+}

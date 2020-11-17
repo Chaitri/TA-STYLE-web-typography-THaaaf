@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 0; 
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -75,7 +75,7 @@ body {
 
 .header h2 , .footer h2 {
     color: #2d2640;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 700;
     font-family: "DM Serif Display";
 }
@@ -99,8 +99,17 @@ body {
     margin: 20px 0;
 }
 
-.hero .flex , .about .flex, .our-work .flex{
+.hero .flex , .about .flex{
     align-items: center;
+}
+
+.our-work.flex {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our-work {
+    height: 200px;
 }
 
 .intro {
@@ -164,5 +173,25 @@ body {
 
 .our-work h2 {
     width: 40%;
-    /* height: 200px; */
+}
+
+.socials i {
+    padding-left: 20px;
+}
+
+.page-links {
+    text-align: center;
+    margin:20px 0;
+}
+
+.page-link {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #797575;
+}
+
+.alt-footer {
+    background-color: #2d2640;
+    padding: 10px;
+    text-align: center;
 }
